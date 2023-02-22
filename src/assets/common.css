@@ -1,8 +1,33 @@
 :root {
     --primary--color: #ff9854;
+    --van-search-left-icon-color: var(--primary--color) !important;
+    --color-linear-gradient: linear-gradient(90deg, #fa8c1d, #fcaf3f);
+
+    --van-primary-color: var(--primary--color)
+}
+
+img {
+    width: 100%;
 }
 
 body {
     font-size: 14px;
-    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.top-page {
+    position: relative;
+    z-index: 9;
+    height: 100vh;
+    overflow-y: auto;
+    background-color: #fff;
+
+}
+
+.center-cpn {
+    padding: 0 15px
+}
+
+.bottom-gray-line {
+    border-bottom: 1px solid #f2f2f2;
 }

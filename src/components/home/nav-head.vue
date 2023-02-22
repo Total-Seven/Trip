@@ -12,11 +12,12 @@
 .head {
     // display
     display: flex;
-    height: 46px;
+    height: 44px;
+    line-height: 1.4;
     // 居中
-    text-align: center;
+    // text-align: center;
     justify-content: center;
-    align-items: center;
+    // align-items: center;
     // boundary
     border-bottom: 1px solid #f2f2f2;
 
